@@ -1,6 +1,6 @@
 module.exports = info => {
     return `
-    ### ${info.title}
+    # ${info.title}
 
     
     ## Project Description
@@ -33,9 +33,9 @@ module.exports = info => {
     ${info.tests}
 
     ## Questions
-    ###Name: ${info.name}
-    ###Github username: ${info.github}
-    ###Guthub link: https://github.com/${info.github}
+    -Name: ${info.name}
+    -Github username: ${info.github}
+    -Guthub link: https://github.com/${info.github}
         
     ###For any additional questions, feel free to reach out to me at:
     ${info.email}
