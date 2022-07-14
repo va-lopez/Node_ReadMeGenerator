@@ -147,7 +147,7 @@ const promptUser = () => {
 promptUser()
   .then(projectInfo => {
     const fileREADME = generateREADME(projectInfo);
-    fs.writeFile('./README.md', fileREADME, err => {
+    fs.writeFile('./test/README.md', fileREADME, err => {
       if (err) throw new Error(err);
       console.log('README file created! Check out README.md in this directory to see it!');
     });
